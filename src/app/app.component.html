@@ -1,0 +1,20 @@
+<div>
+  <h1 style="text-align: center">Details of some Posts</h1>
+  <br />
+  <ul type="circle">
+    <h3>
+     <div class="det">
+      <li id ='disp' *ngFor="let item of data" (click)="show(item)">
+        Id : <i> {{ item.id }} </i> <br />
+        Name : <i> {{ item.name }} </i> <br />
+        <hr />
+      </li>
+     </div>
+    </h3>
+  </ul>
+    <div>
+      <h2 style="text-align:center;">
+        {{ disp }}
+      </h2>
+  </div>
+</div>

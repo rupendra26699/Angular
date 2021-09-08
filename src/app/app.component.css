@@ -1,0 +1,14 @@
+h1{
+background-color: lightcyan;
+
+}
+h2{
+    background-color: lavenderblush;
+    margin-top: 120px;
+}
+ul{
+    background-color: lightgray;
+}
+.det :hover{
+    background-color: rgb(148, 152, 156);
+}
